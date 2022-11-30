@@ -1,0 +1,51 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+     -webkit-appearance: none; 
+   
+}
+.container{
+    width: 30%;
+    margin: 100px auto;
+    border: 2px solid gray;
+    padding: 50px 50px;
+    text-align: center; 
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.container p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.otp-div{
+    display: flex;
+    gap: 13px;
+    width: 80%;
+    margin: auto;
+}
+    .otp{
+        width: 50px;
+        height: 50px;
+        text-align: center;  
+       border: black;
+}
+.mk{
+    margin-top: 50px;
+    box-shadow: 01px 01px 01px 01px;
+    color: red;
+}
+.valid{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ 
+
+
+
+
+
